@@ -78,15 +78,9 @@ The project uses a book dataset which should contain information such as book ti
 book-recommendation-system/
 │
 ├── app.py                    # Flask application
-├── train_models.py           # Script to train recommendation models
-├── recommender/
-│   ├── collaborative.py      # Collaborative filtering implementation
-│   ├── content_based.py      # Content-based filtering implementation
-│   ├── hybrid.py             # Hybrid recommendation system
-│   └── __init__.py
+├── Model.py           # Script to train recommendation models
 ├── data/
 │   ├── books.csv             # Book dataset
-│   └── ratings.csv           # User ratings dataset
 ├── static/
 │   └── css/                  # CSS files for the web app
 ├── templates/
